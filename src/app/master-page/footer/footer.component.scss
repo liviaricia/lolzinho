@@ -1,3 +1,28 @@
-body{
-    background-color: #000;
+@import "/src/styles.scss";
+div {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    border-top: 1px solid $second-color;
+    min-height: 150px;
+    margin-left: 2.5%;
+    padding-top: 10px;
+}
+
+ul {
+    list-style: none;
+    text-transform: uppercase;
+    color: $second-color;
+    font-weight: 600;
+}
+
+ul li {
+    display: inline-flex;
+    padding: 0 30px 10px 30px;
+}
+
+hr {
+    height: 1px;
+    background-color: $second-color;
+    border: none;
 }

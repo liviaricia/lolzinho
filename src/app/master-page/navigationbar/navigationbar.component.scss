@@ -1,0 +1,38 @@
+@import "/src/styles.scss";
+
+div {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+    display: inline-flex;
+}
+
+div .links {
+    height: 46px;
+    padding: 0 35px;
+    margin-top: 28px;
+    text-align: center;
+}
+
+a:hover {
+    box-shadow: $attention 0px -2px 0px inset;
+}
+
+div .login {
+    background-color: $attention2;
+    width: auto;
+    height: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 19px;
+    position: absolute;
+    right: 20px;
+    transition: 0.5s;
+}
+
+div .login:hover{
+    filter: brightness(1.5);
+    transition: 1s;
+}
+
+
